@@ -1,0 +1,66 @@
+Test 1
+s: blablablabla
+t: blablabcde
+k: 8
+Yes
+Concatenated: 3
+Removed: 5
+
+Test 2
+s: tab
+t: tab
+k: 7
+Yes
+Concatenated: 3
+Removed: 4
+
+Test 3
+s: blablablabla
+t: blablabcde
+k: 8
+Yes
+Concatenated: 3
+Removed: 5
+
+Test 4
+s: blablablabla
+t: blablabcde
+k: 3
+No
+
+Test 5
+s: blablablabla
+t: blablabcde
+k: 30
+Yes
+Concatenated: 10
+Removed: 20
+
+Test 6
+s: tab
+t: tab
+k: 2
+Yes
+Concatenated: 1
+Removed: 1
+
+Test 7
+Error.
+The value of parameter k must range from 1 to 100.
+Please, restart the program and try again.
+
+Test 8
+Error.
+The length of parameter t must range from 1 to 100.
+Please, restart the program and try again.
+
+Test 9
+s: tab*+_@
+t: tab
+k: 7
+
+Error.
+The characters of string s must be letters of the Portuguese alphabet, ascii [a-z].
+Please, restart the program and try again.
+
+
